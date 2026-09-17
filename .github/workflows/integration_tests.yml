@@ -1,0 +1,31 @@
+name: AegisVault-Analytics Integration Suite
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Ingest Telemetry Baseline
+      run: python 01_Telemetry_Analytics_Engine.py
+
+    - name: Generate Architecture Schema
+      run: python 02_Schema_Visualizer_Generator.py
+
+    - name: Compute Performance Metrics
+      run: python 03_Performance_Metrics_Aggregator.py
+
+    - name: Execute Full Integration Validator
+      run: python 04_Analytics_Integration_Validator.py
