@@ -1,20 +1,20 @@
-# AegisVault-Analytics
+# 🛡️ AegisVault-Analytics 🧠✨
 
-> "The heart operates as a precision point rhythm—every single pulse must align with absolute mechanical and electrical synchronization to sustain the engine." — **Dr. Michael E. DeBakey**
+> *"The heart operates as a precision point rhythm—every single pulse must align with absolute mechanical and electrical synchronization to sustain the engine."* — **Dr. Michael E. DeBakey**
 
-[![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Architecture](https://img.shields.io/badge/Matrix-Pandora's%20Box-purple.svg)]()
-
----
-
-## System Overview
-
-**AegisVault-Analytics** functions as the telemetry and heartbeat monitor for your local decision support architecture. Designed as an ecosystem extension under the Pandora's Box compartmental matrix framework, it captures immutable execution latencies, renders dynamic schema maps, and enforces zero-dependency regression testing locally via SQLite[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span).
+[![Python Version](https://img.shields.io/badge/python-3.11%2B-blueviolet.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![Architecture: Pandora's Box](https://img.shields.io/badge/Matrix-Pandora's%20Box-hotpink.svg?style=for-the-badge&logo=pandora&logoColor=white)]()
 
 ---
 
-## Architectural Matrix
+## 🚀 System Overview 💡
+
+**AegisVault-Analytics** functions as the telemetry and heartbeat monitor for your local decision support architecture 🧠. Designed as an ecosystem extension under the **Pandora's Box** compartmental matrix framework, it captures immutable execution latencies, renders dynamic schema maps, and enforces zero-dependency regression testing locally via SQLite[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span).
+
+---
+
+## 🏛️ Architectural Matrix ⚡
 
 The pipeline flows sequentially through the following automated execution nodes:
 
@@ -25,7 +25,7 @@ The pipeline flows sequentially through the following automated execution nodes:
 
 ---
 
-## Quick Start
+## 🛠️ Quick Start 🚀
 
 1. **Clone the repository**
    ```bash
